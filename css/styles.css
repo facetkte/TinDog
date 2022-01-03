@@ -1,0 +1,180 @@
+body{
+  font-family: "Montserrat-black";
+  text-align: center;
+  margin: auto;
+}
+
+#title{
+  z-index: 0;
+  text-align: left;
+}
+
+h1, h2, h3{
+  font-family:  "Poppins" ;
+  font-weight: bolder;
+}
+
+p{
+  font-family: "Montserrat-black";
+  padding: 2% 10%;
+  color: #8f8f8f;
+}
+
+/* heading class */
+.h1class{
+  font-size: 3.5rem;
+  line-height:  1.5;
+}
+
+.h2class{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  margin: 0 10%;
+
+}
+
+.h3class{
+  font-size:2rem;
+}
+
+.container-fluid{
+  padding: 3% 15% 10%;
+}
+
+/* sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: white;
+}
+
+/* button */
+.downloadbutton{
+  margin:10% 5% 0 0;
+}
+
+/* Navigation bar */
+.navbar{
+  padding:0 0 2.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight: bolder;
+  font-size: 4.5rem;
+}
+
+.nav-item{
+  padding:0 40px;
+}
+
+.nav-link{
+  font-size: 2rem;
+  font-family: "Montserrat-light";
+
+}
+
+/* img */
+.iphone6-div{
+  text-align: left;
+}
+
+.iphone6{
+  max-width: 60%;
+  position: absolute;
+  transform: rotate(30deg);
+}
+
+/* screnn small */
+@media (max-width: 990px) {
+  .iphone6{
+    position: static;
+    transform: rotate(0deg);
+  }
+
+  .iphone6-div{
+    text-align: center;
+  }
+
+  #title{
+    text-align: center;
+  }
+}
+
+/* section2 */
+#features{
+  position: relative;
+}
+.featurebox{
+  padding:5% 15% 15% ;
+  margin: 0;
+
+}
+
+.picture {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.picture:hover{
+  color: #dc3545;
+}
+
+/* section 3 */
+#testimonials{
+  padding: 5% 4% ;
+  background-color:  #ef8172;
+}
+
+.testimonialimg{
+  width: 10%;
+  border-radius: 100%;
+  margin-top: 5%;
+}
+
+.carousel-item{
+    padding: 5% 4%  ;
+}
+
+/* section 4 */
+#press{
+  padding:0;
+  background-color: #ef8172;
+  padding-bottom: 5%;
+}
+
+.presslogo{
+  width: 15%;
+  margin: 0 3%;
+}
+
+/* section 5 */
+#pricing{
+  margin:  10% 10% 5%;
+}
+
+.pricing-col{
+  padding: 2% 3%;
+}
+
+.card-body p{
+  color :#000;
+}
+
+ /* section 6 */
+
+/* section 7 */
+#footer{
+  font-family: "Poppins";
+  padding: 0;
+  line-height: 0;
+  margin-bottom: 10%;
+}
+
+.social-icon{
+  margin :5%;
+  font-size: 2rem;
+}
