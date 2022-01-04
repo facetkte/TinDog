@@ -1,4 +1,4 @@
-#[TinDog]  
+# TinDog 
 https://facetkte.github.io/learn-from-udemy/
-##Copyright© 
+## Copyright© 
 https://www.appbrewery.com/
